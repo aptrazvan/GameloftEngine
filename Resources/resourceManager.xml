@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceManager>
+	<models>
+		<model id="1">
+			<path>Resources/Models/croco.nfg</path>
+		</model>
+		<model id="2">
+			<path>Resources/Models/bus.nfg</path>
+		</model>
+		<model id="5">
+			<path>Resources/Models/bila.nfg</path>
+		</model>
+		<model id="6">
+			<path>Resources/Models/skyBox.nfg</path>
+		</model>
+		<model id="7">
+			<path>Resources/Models/fire.nfg</path>
+		</model>
+		<model id="10">
+			<path>Resources/Models/goliath.nfg</path>
+		</model>
+		<model id="11">
+			<path>Resources/Models/house.nfg</path>
+		</model>
+		<model id="12">
+			<path>Resources/Models/marine.nfg</path>
+		</model>
+		<model id="13">
+			<path>Resources/Models/radar.nfg</path>
+		</model>
+		<model id="14">
+			<path>Resources/Models/scv.nfg</path>
+		</model>
+		<model id="15">
+			<path>Resources/Models/terran_command_center.nfg</path>
+		</model>
+		<model id="16">
+			<path>Resources/Models/train.nfg</path>
+		</model>
+		<model id="17">
+			<path>Resources/Models/water.nfg</path>
+		</model>
+		<model id="18">
+			<path>Resources/Models/witch.nfg</path>
+		</model>
+		<model id="19">
+			<path>Resources/Models/woman1.nfg</path>
+		</model>
+		<model id="20">
+			<path>Resources/Models/woman2.nfg</path>
+		</model>
+		<!-- si aici se adauga toate modelele -->
+	</models>
+	<shaders>
+		<shader id="10">
+			<vs>Resources/Shaders/modelShader.vs</vs>
+			<fs>Resources/Shaders/modelShader.fs</fs>
+		</shader>
+		<shader id="3">
+			<vs>Resources/Shaders/terrainShader.vs</vs>
+			<fs>Resources/Shaders/terrainShader.fs</fs>
+		</shader>
+		<shader id="4">
+			<vs>Resources/Shaders/skyBoxShader.vs</vs>
+			<fs>Resources/Shaders/skyBoxShader.fs</fs>
+		</shader>
+		<shader id="5">
+			<vs>Resources/Shaders/fireShader.vs</vs>
+			<fs>Resources/Shaders/fireShader.fs</fs>
+		</shader>
+		<!-- si aici se adauga toate shaderele -->
+	</shaders>
+	<textures>
+		<texture id="4" type="2d">
+			<path>Resources/Textures/croco.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="2" type="2d">
+			<path>Resources/Textures/bila.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="10" type="2d">
+			<path>Resources/Textures/goliath.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="21" type="2d">
+			<path>Resources/Textures/house.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="22" type="2d">
+			<path>Resources/Textures/marine.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="23" type="2d">
+			<path>Resources/Textures/radar.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="24" type="2d">
+			<path>Resources/Textures/scv.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="25" type="2d">
+			<path>Resources/Textures/terran_command_center.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="26" type="2d">
+			<path>Resources/Textures/train.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="28" type="2d">
+			<path>Resources/Textures/witch.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="29" type="2d">
+			<path>Resources/Textures/woman1.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="12" type="2d">
+			<path>Resources/Textures/woman2.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="13" type="2d">
+			<path>Resources/Textures/grass.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="14" type="2d">
+			<path>Resources/Textures/dirt.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="15" type="2d">
+			<path>Resources/Textures/rock.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="16" type="2d">
+			<path>Resources/Textures/terrain_blend_map.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="17" type="cube">
+			<path>Resources/Textures/envMap.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="5" type="2d">
+			<path>Resources/Textures/bus.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="18" type="2d">
+			<path>Resources/Textures/fire3.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="19" type="2d">
+			<path>Resources/Textures/fire_mask.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="20" type="2d">
+			<path>Resources/Textures/displacementMap.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<!-- si aici se adauga toate texturile -->
+	</textures>	
+	<sounds>
+		<sound id="1">Resources/Sounds/grass-step.wav</sound>
+	</sounds>
+</resourceManager>

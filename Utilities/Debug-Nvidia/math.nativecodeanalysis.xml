@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.h</FILENAME>
+      <LINE>131</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Matrix::m' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Matrix::{ctor}</FUNCTION>
+    <DECORATED>??0Matrix@@QAE@XZ</DECORATED>
+    <FUNCLINE>131</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector2::Length</FUNCTION>
+    <DECORATED>?Length@Vector2@@QAEMXZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector2::Length</FUNCTION>
+    <DECORATED>?Length@Vector2@@QAEMXZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector3::Length</FUNCTION>
+    <DECORATED>?Length@Vector3@@QAEMXZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector3::Length</FUNCTION>
+    <DECORATED>?Length@Vector3@@QAEMXZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector3::Length</FUNCTION>
+    <DECORATED>?Length@Vector3@@QAEMXZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector4::Length</FUNCTION>
+    <DECORATED>?Length@Vector4@@QAEMXZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector4::Length</FUNCTION>
+    <DECORATED>?Length@Vector4@@QAEMXZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector4::Length</FUNCTION>
+    <DECORATED>?Length@Vector4@@QAEMXZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.cpp</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Vector4::Length</FUNCTION>
+    <DECORATED>?Length@Vector4@@QAEMXZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

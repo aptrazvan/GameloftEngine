@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.h</FILENAME>
+      <LINE>131</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Matrix::m' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Matrix::{ctor}</FUNCTION>
+    <DECORATED>??0Matrix@@QAE@XZ</DECORATED>
+    <FUNCLINE>131</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ObjectScene::modelId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ObjectScene::{ctor}</FUNCTION>
+    <DECORATED>??0ObjectScene@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ObjectScene::shaderId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ObjectScene::{ctor}</FUNCTION>
+    <DECORATED>??0ObjectScene@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ObjectScene::id' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ObjectScene::{ctor}</FUNCTION>
+    <DECORATED>??0ObjectScene@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ObjectScene::model' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ObjectScene::{ctor}</FUNCTION>
+    <DECORATED>??0ObjectScene@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ObjectScene::shader' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ObjectScene::{ctor}</FUNCTION>
+    <DECORATED>??0ObjectScene@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ObjectScene::depthTest' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ObjectScene::{ctor}</FUNCTION>
+    <DECORATED>??0ObjectScene@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ObjectScene::circleTrajectory' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ObjectScene::{ctor}</FUNCTION>
+    <DECORATED>??0ObjectScene@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ObjectScene::trajectory' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ObjectScene::{ctor}</FUNCTION>
+    <DECORATED>??0ObjectScene@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>objectscene.cpp</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.</DESCRIPTION>
+    <FUNCTION>ObjectScene::Update</FUNCTION>
+    <DECORATED>?Update@ObjectScene@@UAEXVVector3@@M@Z</DECORATED>
+    <FUNCLINE>163</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

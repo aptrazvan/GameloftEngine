@@ -1,0 +1,34 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stdafx.cpp
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  TGA.cpp
+  Math.cpp
+d:\projects\gameloft\utilities\math.h(77): warning C4521: 'Vector3': multiple copy constructors specified
+d:\projects\gameloft\utilities\math.cpp(10): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+d:\projects\gameloft\utilities\math.cpp(104): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+d:\projects\gameloft\utilities\math.cpp(208): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  esUtil_win.cpp
+  esUtil.cpp
+  esShader.cpp
+  Compiling...
+  Generating Code...
+  Utilities.vcxproj -> D:\Projects\Gameloft\\BIN-Nvidia\Utilities.lib
+d:\projects\gameloft\utilities\esshader.cpp(27): warning C6387: 'pf' could be '0':  this does not adhere to the specification for the function 'fseek'. 
+d:\projects\gameloft\utilities\esshader.cpp(28): warning C6387: 'pf' could be '0':  this does not adhere to the specification for the function 'ftell'. See line 27 for an earlier location where this can occur
+d:\projects\gameloft\utilities\esshader.cpp(34): warning C6387: 'pf' could be '0':  this does not adhere to the specification for the function 'fclose'. See line 27 for an earlier location where this can occur
+d:\projects\gameloft\utilities\esshader.cpp(32): warning C6386: Buffer overrun while writing to 'shaderSrc':  the writable size is '(size+1)*1' bytes, but '4294967295' bytes might be written.
+d:\projects\gameloft\utilities\esshader.cpp(32): warning C6387: 'pf' could be '0':  this does not adhere to the specification for the function 'fread'. See line 27 for an earlier location where this can occur
+d:\projects\gameloft\utilities\esshader.cpp(109): warning C6283: 'infoLog' is allocated with array new [], but deleted with scalar delete.
+d:\projects\gameloft\utilities\esutil_win.cpp(24): warning C6011: Dereferencing NULL pointer 'esContext'. 
+d:\projects\gameloft\utilities\esutil_win.cpp(124): warning C28159: Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem
+d:\projects\gameloft\utilities\esutil_win.cpp(129): warning C28159: Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem
+d:\projects\gameloft\utilities\math.h(131): warning C26495: Variable 'Matrix::m' is uninitialized. Always initialize a member variable (type.6).
+d:\projects\gameloft\utilities\math.cpp(10): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+d:\projects\gameloft\utilities\math.cpp(10): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
+d:\projects\gameloft\utilities\math.cpp(104): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+d:\projects\gameloft\utilities\math.cpp(104): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+d:\projects\gameloft\utilities\math.cpp(104): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
+d:\projects\gameloft\utilities\math.cpp(208): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+d:\projects\gameloft\utilities\math.cpp(208): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+d:\projects\gameloft\utilities\math.cpp(208): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+d:\projects\gameloft\utilities\math.cpp(208): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).

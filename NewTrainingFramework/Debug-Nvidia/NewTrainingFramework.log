@@ -1,0 +1,4 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Camera.cpp
+d:\projects\gameloft\utilities\math.h(77): warning C4521: 'Vector3': multiple copy constructors specified
+  NewTrainingFramework.vcxproj -> D:\Projects\Gameloft\\BIN-Nvidia\NewTrainingFramework.exe

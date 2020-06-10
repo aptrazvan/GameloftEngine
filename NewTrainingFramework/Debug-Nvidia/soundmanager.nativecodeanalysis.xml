@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\utilities</FILEPATH>
+      <FILENAME>math.h</FILENAME>
+      <LINE>131</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Matrix::m' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Matrix::{ctor}</FUNCTION>
+    <DECORATED>??0Matrix@@QAE@XZ</DECORATED>
+    <FUNCLINE>131</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>soundmanager.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SoundManager::sr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SoundManager::{ctor}</FUNCTION>
+    <DECORATED>??0SoundManager@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>soundmanager.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SoundManager::soundId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SoundManager::{ctor}</FUNCTION>
+    <DECORATED>??0SoundManager@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\projects\gameloft\newtrainingframework</FILEPATH>
+      <FILENAME>soundmanager.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SoundManager::sound' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SoundManager::{ctor}</FUNCTION>
+    <DECORATED>??0SoundManager@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
